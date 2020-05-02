@@ -1,3 +1,4 @@
+require 'pry'
 
 def hopper
 	programmer_hash = 
@@ -56,6 +57,7 @@ def dennis_ritchies_language
       }
     }
 programmer_hash[:dennis_ritchie][:known_for][:languages]
+binding.pry
 end
 
 def adding_matz
